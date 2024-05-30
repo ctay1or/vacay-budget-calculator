@@ -1,6 +1,8 @@
 var tripInfoButton = document.querySelector(".trip-info");
 var dailyBudget = document.querySelector(".daily-budget");
 
+//Capture data using prompts and calculate food & fun budget.
+
 var tripInfo = function () {
     var totalBudget = Number(prompt("What is your total budget?"));
     var accomodation = Number(prompt("What are your accomodation costs?"));
